@@ -49,7 +49,8 @@ nav ul li a {
 }
 
 .hero button {
-  margin-top: 1rem;
+  margin-top: 2rem;
+ 
   padding: 0.7rem 1.5rem;
   border: none;
   background: #fff;
@@ -57,6 +58,7 @@ nav ul li a {
   font-weight: bold;
   cursor: pointer;
   transition: transform 0.3s ease;
+
 }
 
 .hero button:hover {
@@ -80,6 +82,16 @@ h2{
     font-size: 2rem;
     font-weight: bold;
 }
+
+h3 {
+   display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
 .card {
   background: #fff;
   padding: 1rem;
@@ -87,6 +99,10 @@ h2{
   text-align: center;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   transition: transform 0.3s ease;
+   
+  display: grid;
+   align-content: center;
+    
 }
 
 .card:hover {
@@ -96,16 +112,20 @@ h2{
 .card img {
   max-width: 100%;
   border-radius: 5px;
+  
 }
 
 .add-cart {
-  margin-top: 0.5rem;
+  /*margin-top: 0.5rem;*/
+  /*margin-top: auto;*/
   padding: 0.5rem 1rem;
   background: #0072ff;
   color: #fff;
   border: none;
   cursor: pointer;
   transition: background 0.3s ease;
+
+
 }
 
 .add-cart:hover {
