@@ -149,3 +149,16 @@ footer {
   text-align: center;
   padding: 1.5rem;
 }
+redes-horizontal {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; /* Espacio entre cada red social */
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  .redes-horizontal li {
+    display: inline-block;
+  }
