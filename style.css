@@ -114,8 +114,11 @@ h2{
 
 /* Footer */
 footer {
-  background: #222;
-  color: #fff;
+  background-image: url('https://sportsmedicinesystems.com/wp-content/uploads/2021/08/Foro-virtual-El-deporte-dentro-y-fuera-de-la-cancha-2.jpg'); 
+  background-size:contain;
+  background-repeat:inherit;
+  /*background: #868585;*/
+  color: #0c0c0c;
   text-align: center;
   padding: 1.5rem;
 }
