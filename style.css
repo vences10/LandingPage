@@ -67,10 +67,19 @@ nav ul li a {
 .grid {
   padding: 2rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(3, 1fr); /* Máximo 3 productos por fila */
+  /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
   gap: 1.5rem;
 }
 
+h2{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
 .card {
   background: #fff;
   padding: 1rem;
@@ -105,8 +114,11 @@ nav ul li a {
 
 /* Footer */
 footer {
-  background: #222;
-  color: #fff;
+  background-image: url('https://sportsmedicinesystems.com/wp-content/uploads/2021/08/Foro-virtual-El-deporte-dentro-y-fuera-de-la-cancha-2.jpg'); 
+  background-size:contain;
+  background-repeat:inherit;
+  /*background: #868585;*/
+  color: #0c0c0c;
   text-align: center;
   padding: 1.5rem;
 }
